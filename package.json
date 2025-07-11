@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts",
+    "dev:clean": "pkill -f 'bun run' || true && bun run dev",
+    "kill": "pkill -f 'bun run' || true"
+  },
+  "dependencies": {
+    "@elysiajs/bearer": "^1.3.0",
+    "@elysiajs/cors": "^1.3.3",
+    "@elysiajs/jwt": "^1.3.1",
+    "@elysiajs/swagger": "^1.3.1",
+    "@types/bcryptjs": "^3.0.0",
+    "bcryptjs": "^3.0.2",
+    "elysia": "latest",
+    "mongoose": "^8.16.3"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
