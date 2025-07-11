@@ -263,6 +263,3 @@ bun run start
 
 Bu proje MIT lisansı altında lisanslanmıştır.
 
-## 🆘 Destek
-
-Sorularınız için issue açabilir veya e-posta gönderebilirsiniz. # OBS
